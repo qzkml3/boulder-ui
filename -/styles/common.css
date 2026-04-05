@@ -1,0 +1,133 @@
+body {
+	background-color: gold;
+	color: #444;
+}
+
+a {
+	color: brown;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	position: relative;
+	top: 1px;
+}
+
+.b-item {
+	margin: 10px 0;
+	padding: 15px;
+	border: silver 1px solid;
+	border-radius: 8px;
+	background-color: cornsilk;
+}
+
+/* b-btn */
+.b-btn,
+.b-btn-1,
+.b-btn-2,
+.b-btn-0 {
+	border: solid 1px silver;
+	padding: 5px;
+	border-radius: 6px;
+	cursor: pointer;
+	color: #555;
+}
+
+.b-btn:hover,
+.b-btn-1:hover,
+.b-btn-2:hover,
+.b-btn-0:hover {
+	box-shadow: 0 0 5px deepskyblue;
+}
+
+.b-btn:active,
+.b-btn-1:active,
+.b-btn-2:active,
+.b-btn-0:active {
+	position: relative;
+	top: 1px;
+}
+
+.b-btn-1 {
+	background-color: orange;
+	color: white;
+}
+
+.b-btn-2 {
+	background-color: gold;
+}
+
+.b-btn-0 {
+	background-color: orangered;
+	color: white;
+}
+
+.color-white * {
+	color: white;
+}
+
+.b-tbl {
+	overflow-x: auto;
+}
+
+.b-tbl table {
+	border-collapse: collapse;
+}
+
+.b-tbl th {
+	border-top: solid 1px silver;
+	border-bottom: solid 1px silver;
+	padding: 5px;
+	text-align: left;
+	background-color: goldenrod;
+	color: white;
+}
+
+.b-tbl td {
+	border-bottom: solid 1px silver;
+	padding: 5px;
+	min-width: 20px;
+}
+
+/*높낮이는 flex로 정렬 해 보자*/
+.b-form input {
+	box-sizing: border-box;
+	padding: 10px;
+	height: 30px;
+	border: solid 1px silver;
+	border-radius: 6px;
+	background-color: cornsilk;
+	/*line-height: 1em;*/
+}
+
+.b-form input:focus {
+	outline: none;
+	box-shadow: 0 0 5px deepskyblue;
+}
+
+.b-list ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.b-list li:first-child {
+	/*border-top: solid 1px silver;*/
+}
+
+.b-list li:last-child {
+	border-bottom: none;
+}
+.b-list li {
+	border-bottom: solid 1px silver;
+	padding: 0px 20px	;
+	line-height: 3em;
+}
+
+.b-list li a {
+	display: block;
+}
